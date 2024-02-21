@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Barcode</title>
+</head>
+<body>
+    <style>
+        .btn {
+
+            margin-top: 10vh;
+            height: 5vh;
+            width: 60vw;
+            font-size: 3rem;
+        }
+    </style>
+    <h1>{{ Product_ID_Barcode }}</h1>
+  <img alt='Barcode Generator'
+       src='https://barcode.tec-it.com/barcode.ashx?data={{ Product_ID_Barcode }}&code=Code128&multiplebarcodes=false&translate-esc=true&unit=Fit&dpi=96&imagetype=Gif&rotation=0&color=%23000000&bgcolor=%23ffffff&codepage=Default&qunit=Mm&quiet=0&hidehrt=False' />
+    <br>
+    <a href="/upload_products/"><button class="btn">Add another product</button></a>
+</body>
+</html>

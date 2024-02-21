@@ -1,0 +1,3 @@
+Name,Contact_Number,Email,Payment_Method,Product_IDs,Quantities,Customer_ID,Total_Amount
+Navya,0000000000,n@g.com,google_pay,"['SA005 2000', 'SA005 180']","['1', '1']",774530,2180
+Madhav,8800515740,m@gmail.com,other,"['SA005 180', 'SA005 2000']","['2', '1']",244699,2360
